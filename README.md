@@ -58,12 +58,12 @@ We made this project to pass the classes where we use Android Studio. This simpl
 
 ## Getting Started
 
-1. Open the project via Android Studio.
-2. Click 'Tools' and then choose the 'Firebase' from the dropdown menu.
-3. In the assistant window click 'Realtime Database' and then 'Get started with Realtime Database'.
-4. Click on the 'Connect to Firebase' button.
-5. Connect the project to your Firebase project.
-6. You have to enable the Email/Password sign-in provider.
+1. Go to https://console.firebase.google.com/ and select your project or make a new one.
+2. On the left menu, click on 'Realtime Database' and then create database if you didn't do that before.
+3. On the left menu, click on 'Authentication' and enable the Email/Password sign-in provider.
+4. On the left menu, click on 'Settings' and then 'Project settings'
+5. Download the 'google-services.json' file under the 'Your apps' section.
+6. Paste 'google-services.json' file to the 'Simple_Android_App-main\app' folder.
 7. The Simple_Android_App is ready to use!
 
 <!-- CONTRIBUTING -->
